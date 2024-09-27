@@ -20,7 +20,7 @@ var 3balnce = 500;
 // 5. names are case-sensitive
 place
 Place
-PLASE
+PLACE
 plaCe
 
 // 6. how to write a long variable name
