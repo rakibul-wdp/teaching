@@ -43,8 +43,8 @@ const number = 0;
 
 // number > 0 ? console.log("Positive number") : number < 0 ? console.log("Negative number") : console.log("Zero");
 
-const purchaseAmount = 250;
-const isMember = true;
+const purchaseAmount = 150;
+const isMember = false;
 let payAmount;
 
 // if (isMember) { // isMember === true
