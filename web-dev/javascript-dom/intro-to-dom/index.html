@@ -26,7 +26,22 @@
     </main>
 
     <script>
+      const calculate = {
+        sum: function (num1, num2) {
+          console.log("Total ", num1 + num2);
+        },
+      };
+    </script>
+    <script>
       console.log("inside the html file");
+    </script>
+    <script>
+      const listItems = document.getElementsByTagName("li");
+      // console.log(listItems);
+      for (const listItem of listItems) {
+        // console.log(listItem);
+        console.log(listItem.innerText);
+      }
     </script>
     <script src="./js/script.js"></script>
   </body>
